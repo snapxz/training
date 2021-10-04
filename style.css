@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    background-image: url(https://cdn.discordapp.com/attachments/726875002451918898/894104425340231690/5d96d646847841.586690decaada.gif);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+}
+
+
+section > .center{
+    width: 940px;
+}
+
+.aboutme-container{
+    height: 500px;
+    width: 350px;
+    background: #CCCCCC;
+    margin: 15em auto;
+    border-radius: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 1));
+    text-align: center;
+    overflow: hidden;
+}
+
+.aboutme-container img{
+    background: url(assets/kanna.jpg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 30%;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.aboutme-container h1{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;    
+
+}
+
+.aboutme-container p{
+    font-size: 18px;
+    margin-top: 20px;  
+    font-weight: bold;
+}
+
+
+.social{
+    text-align: center;
+}
+
+.social img{
+    width: 20%;
+    margin-top: 50px;
+    transition: 1s all;
+
+
+}
+
+.social img:hover{
+    transform: scale(1.1);
+}
+
+audio{
+    margin-top: 20px;
+    width: 30%;
+
+}
