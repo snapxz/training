@@ -5,7 +5,7 @@
 }
 
 html{
-    background-image: url(https://cdn.discordapp.com/attachments/726875002451918898/894104425340231690/5d96d646847841.586690decaada.gif);
+    background-image: url(https://media.discordapp.net/attachments/726875002451918898/947327956588560394/212449.gif?width=751&height=676);
     background-repeat: no-repeat;
     height: 100%;
     background-size: cover;
@@ -24,7 +24,7 @@ section > .center{
     background: #CCCCCC;
     margin: 15em auto;
     border-radius: 50px;
-    filter: drop-shadow(0.1px 4px 4px rgba(0, 0, 0, 1));
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 1));
     text-align: center;
     overflow: hidden;
 }
