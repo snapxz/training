@@ -30,7 +30,7 @@ section > .center{
 }
 
 .aboutme-container img{
-    background: url(assets/kanna.jpg);
+    background: url(assets/kanna.png);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     width: 30%;
     border-radius: 50%;
