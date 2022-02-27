@@ -24,7 +24,7 @@ section > .center{
     background: #CCCCCC;
     margin: 15em auto;
     border-radius: 50px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 1));
+    filter: drop-shadow(0.1px 4px 4px rgba(0, 0, 0, 1));
     text-align: center;
     overflow: hidden;
 }
