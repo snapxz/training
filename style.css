@@ -5,7 +5,7 @@
 }
 
 html{
-    background-image: url(https://cdn.discordapp.com/attachments/726875002451918898/894104425340231690/5d96d646847841.586690decaada.gif);
+    background-image: url(https://cdn.discordapp.com/attachments/726875002451918898/947680374278987776/b22aa22b2f3f55b6468361158d52e2e7.gif);
     background-repeat: no-repeat;
     height: 100%;
     background-size: cover;
@@ -34,7 +34,12 @@ section > .center{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     width: 30%;
     border-radius: 50%;
-    margin-top: 30px;
+    margin-top: 2em;
+}
+
+.aboutme-container img:hover{
+    transform: rotate(360deg);
+    transition: 1s all;
 }
 
 .aboutme-container h1{
@@ -48,6 +53,23 @@ section > .center{
     font-size: 18px;
     margin-top: 20px;  
     font-weight: bold;
+    background:  linear-gradient(90deg, #000, #0000, #ccc);
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip:  text;
+    -webkit-text-fill-color:  transparent;
+    animation: shine 5s linear infinite;
+}
+
+@keyframes shine{
+    0%{
+        background-position-x:  -500%;
+    }
+
+    100%{
+        background-position-x: 500%;
+    }
 }
 
 
@@ -59,6 +81,7 @@ section > .center{
     width: 20%;
     margin-top: 50px;
     transition: 1s all;
+    background:  none;
 
 
 }
