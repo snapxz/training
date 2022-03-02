@@ -95,3 +95,10 @@ audio{
     width: 40%;
 
 }
+
+@media only screen and (max-width: 400px){
+    .aboutme-container{
+        margin:  10em auto;
+    }
+
+} 
